@@ -8,7 +8,7 @@
 <body>
     <?php
     
-    $age = 14 ; 
+    $age = 18 ; 
 
     if ($age > 0){
 
@@ -17,13 +17,18 @@
             for ($i=0; $i < $age ; $i++) { 
         
                 echo " your age is $age => not greater than 18";
+                echo "<br/>";
             }
 
         }
         elseif ($age > 15 and $age <= 25 ){
-
-            
-            echo " your age is $age => accessible to content";
+            $i = 0 ; 
+            while ( $i < $age ) 
+            {
+                echo " your age is $age => accessible to content";
+                echo "<br/>";
+                $i++;
+            }
 
         }
 
