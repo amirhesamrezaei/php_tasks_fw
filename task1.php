@@ -8,8 +8,33 @@
 <body>
     <?php
     
-    $age = 25 ; 
-    
+    $age = 14 ; 
+
+    if ($age > 0){
+
+        if ($age < 15){
+
+            for ($i=0; $i < $age ; $i++) { 
+        
+                echo " your age is $age => not greater than 18";
+            }
+
+        }
+        elseif ($age > 15 and $age <= 25 ){
+
+            
+            echo " your age is $age => accessible to content";
+
+        }
+
+        else{
+
+            echo " your age is $age =>  please  leave this ";
+
+        }
+
+    }
+
 
 
 
