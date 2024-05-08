@@ -7,7 +7,9 @@
 </head>
 <body>
     <?php
-
+    
+    $age = 25 ; 
+    
 
 
 
