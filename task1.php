@@ -8,8 +8,21 @@
 <body>
     <?php
 
-        echo "My first PHP script!";
-        
+
+
+
+
+
+
+    // $age = 14;
+
+
+    //     echo "My first PHP script!";
+    //     echo "<br>";
+    //     echo "hello world";
+    //     echo "<br>";
+    //     echo phpversion();
+
     ?>
 </body>
 </html>
