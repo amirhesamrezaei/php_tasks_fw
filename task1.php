@@ -41,6 +41,11 @@
     }
 
     include 'task1_.php';
+    $day = "monday";
+    echo "<br/>";
+    echo $day ;
+
+
 
 
 
