@@ -32,7 +32,7 @@
                             echo "6 day of the week";
                             break;
 
-                            case "sateday":
+                            case "sterday":
                                 echo "7 day of the week";
                                 break;
 
