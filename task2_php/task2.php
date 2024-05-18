@@ -1,6 +1,22 @@
 <?php
 
 
+
+function printname($name){
+
+
+    for ($i=0; $i < 25 ; $i++) { 
+        echo "welcome to this website dear $name";
+         echo "<br>";
+
+    }
+
+
+}
+printname("amirhesam");
+
+
+
 function getPrice($price){
 
     if($price > 0 && $price < 1500)
