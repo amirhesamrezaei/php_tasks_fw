@@ -172,17 +172,17 @@ else{
 //w
 
 $myfile = fopen("information.txt", "a") or die("Unable to open file!");
-$txt = $_POST['fname'] . "\n" ;
+$txt = $student -> get_firstName() . "\n" ;
 fwrite($myfile, $txt);
 
 
-$txt = $_POST['lname'] . "\n" ;
+$txt = $student -> get_lastName() . "\n" ;
 fwrite($myfile, $txt);
 
-$txt = $_POST['stdmeli'] . "\n" ;
+$txt = $student -> get_melliId() . "\n" ;
 fwrite($myfile, $txt);
 
-$txt = $_POST['stdid'] . "\n" ;
+$txt = $student -> get_id() . "\n" ;
 fwrite($myfile, $txt);
 
 fclose($myfile);
