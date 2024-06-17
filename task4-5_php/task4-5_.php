@@ -1,5 +1,39 @@
 <?php
 
+class students {
+
+    public $firstName ;
+    public $lastName ;
+    protected $id;
+    protected $melliId;
+
+    function __construct($fname,$lname) {
+        $this -> firstName = $fname;
+        $this -> lastName = $lname;
+    }
+
+    function get_firstName() {
+        return $this -> firstName;
+    }
+
+    function get_lastName() {
+        return $this -> lastName;
+    }
+
+    function get_melliId() {
+        return $this -> melliId;
+    }
+
+    function get_id() {
+        return $this -> id;
+    }
+    
+
+
+
+
+
+}
 
 
 
