@@ -168,6 +168,15 @@ else{
 
 }
 
+echo "<hr>";
+echo $student -> get_firstName() ;
+echo "<br>";
+echo $student -> get_lastName();
+echo "<br>";
+echo $student -> get_melliId();
+echo "<br>";
+echo $student -> get_id();
+
 
 //w
 
