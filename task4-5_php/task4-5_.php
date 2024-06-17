@@ -27,7 +27,26 @@ class students {
     function get_id() {
         return $this -> id;
     }
-    
+
+
+    function set_fname($fname){
+        $this -> firstName = $fname;
+    }
+
+    function set_lname($lname){
+        $this -> lastName = $lname;
+    }
+
+    function set_id($id){
+        $this -> id = $id;
+    }
+
+    function set_melliId($melliId){
+        $this -> melliId = $melliId;
+    }
+
+
+
 
 
 
