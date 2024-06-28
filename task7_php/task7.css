@@ -1,0 +1,9 @@
+@font-face {
+    font-family:ttr ;
+    src: url(./iransans.ttf.ttf);
+}
+.container2{
+    height: 100vh;
+    font-family: ttr;
+    
+}
