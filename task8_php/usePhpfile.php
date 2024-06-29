@@ -14,3 +14,6 @@ $use = new processTask("localhost","task8","root","");
 $use->addtoDatabase($_POST['fname'],$_POST['lname'],$_POST['stdid'],$_POST['stdmeli'],"formInformation");
 $use->fetchAll("formInformation");
 // $use->fetchOneById("testTable",25);
+
+
+
