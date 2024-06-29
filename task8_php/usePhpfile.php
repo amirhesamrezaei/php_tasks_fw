@@ -9,11 +9,11 @@
 //خروجی به صورت جدول هست
 
 include('./task8.php');
-$use = new processTask("localhost","task8","root","");
-// $use->creatTables("formInformation");
-$use->addtoDatabase($_POST['fname'],$_POST['lname'],$_POST['stdid'],$_POST['stdmeli'],"formInformation");
-$use->fetchAll("formInformation");
-// $use->fetchOneById("testTable",25);
+$useTest = new processTask("localhost","task8","root","");
+// $useTest->creatTables("formInformation");
+$useTest->addtoDatabase($_POST['fname'],$_POST['lname'],$_POST['stdid'],$_POST['stdmeli'],"formInformation");
+$useTest->fetchAll("formInformation");
+// $useTest->fetchOneById("testTable",25);
 
 
 
