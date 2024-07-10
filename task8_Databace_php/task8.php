@@ -32,7 +32,6 @@ class processTask extends connectToDatabase{
 
 
     public function creatTables($tablenName){
-
     $sql = "CREATE TABLE $tablenName (
     firstname VARCHAR(30) NOT NULL,
     lastname VARCHAR(30) NOT NULL,
