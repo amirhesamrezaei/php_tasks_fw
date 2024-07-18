@@ -19,9 +19,15 @@ class baceModel{
 
   class connectToDatabase extends baceModel{
 
-    protected function connectdatabase(){ 
+    protected function connectdatabase(){
+      
+      
+  require '../model/redbean_php/rb.php';
+      
+ 
+
   
-      $conn = new PDO("mysql:host=$this->host;dbname=$this->dbname", $this->username, $this->password);
+      $conn = R::setup( "mysql:host=$this->host;dbname=$this->dbname",$this->username, $this->password );
       return $conn;
    }
   
