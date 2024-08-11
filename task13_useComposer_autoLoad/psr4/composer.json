@@ -1,0 +1,8 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Load\\Library\\": "../psr4/src"
+        }
+    }
+ 
+}

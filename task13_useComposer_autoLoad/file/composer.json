@@ -1,0 +1,6 @@
+{
+    "autoload": {
+        "files": ["./model/user.php"],
+          "classmap": ["aldemo/Model"]
+    }
+}

@@ -1,5 +1,5 @@
 {
     "autoload": {
-        "files": ["aldemo/mylibrary/functions.php"]
+        "files": ["./aldemo/mylibrary/function.php"]
     }
 }
